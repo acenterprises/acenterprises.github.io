@@ -11611,7 +11611,8 @@ header.sticky .top-bar+.navbar.fixed-top {
 }
 
 header.sticky .navbar.responsive-sticky .navbar-brand img {
-	max-height: 40px
+	max-height: 40px;
+	min-height: 32px;
 }
 
 .sticky .navbar.responsive-sticky .navbar-nav .nav-link {
