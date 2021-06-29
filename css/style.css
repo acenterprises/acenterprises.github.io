@@ -264,7 +264,18 @@ button:hover {
 }
 
 .alt-font {
-	font-family: Poppins, sans-serif
+	font-family: Poppins, sans-serif;
+	font-size: large;
+}
+
+.alt-font2 {
+	font-family: Poppins, sans-serif;
+
+}
+
+.alt-font1 {
+	font-family: Poppins, sans-serif;
+	font-size: x-large;
 }
 
 .main-font {
@@ -11600,11 +11611,12 @@ header.sticky .top-bar+.navbar.fixed-top {
 }
 
 header.sticky .navbar.responsive-sticky .navbar-brand img {
-	max-height: 32px
+	max-height: 40px
 }
 
 .sticky .navbar.responsive-sticky .navbar-nav .nav-link {
-	padding: 18px 0
+	padding: 18px 0;
+	padding-bottom: 10px;
 }
 
 .sticky .navbar.responsive-sticky .header-cart-icon a>i,
@@ -12152,7 +12164,8 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 header .navbar .navbar-brand img,
 header .sidebar-nav-menu .navbar-brand img,
 header.side-menu .logo img {
-	max-height: 36px
+	max-height: 80px;
+	padding-top: 5px;
 }
 
 header .navbar .navbar-brand .default-logo,
